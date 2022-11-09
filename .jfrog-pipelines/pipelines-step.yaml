@@ -6,6 +6,11 @@ resources:
       gitProvider: github # this will be replaced from values.yml
       # Repository path, including org name/repo name
       path: yashprit/ci-demo-npm # this will be replaced from values.yml
+  - name: myPropertyBag
+    type: PropertyBag
+    configuration:
+      commitSha: 1
+      runID: 1
 
 pipelines:
   - name: my_first_pipeline
