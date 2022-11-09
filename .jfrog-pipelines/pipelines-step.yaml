@@ -6,9 +6,6 @@ resources:
       gitProvider: github # this will be replaced from values.yml
       # Repository path, including org name/repo name
       path: yashprit/ci-demo-npm # this will be replaced from values.yml
-      branches:
-        # Specifies which branches will trigger dependent steps
-        include: *
 
 pipelines:
   - name: my_first_pipeline
